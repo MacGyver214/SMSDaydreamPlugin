@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message_widget"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="@dimen/component_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/name_text_size"
+        android:paddingBottom="@dimen/text_margin"
+        android:id="@+id/message_address"
+        android:textSize="9pt"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/preview_text_size"
+        android:id="@+id/message_preview"
+        android:textSize="6pt"/>
+
+
+
+</LinearLayout>

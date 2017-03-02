@@ -1,0 +1,7 @@
+Items to Implement:
+
+1) Widget Layout for each message item      --      XXXXX
+
+2) Manager class for fetching/storing/sending SMS messages from the system      --      XXXXX
+
+3) Adapter class for custom array adapting to include both a name title and message preview
