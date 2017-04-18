@@ -8,14 +8,14 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/name_text_size"
+        android:layout_height="wrap_content"
         android:paddingBottom="@dimen/text_margin"
         android:id="@+id/message_address"
         android:textSize="9pt"/>
     
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/preview_text_size"
+        android:layout_height="wrap_content"
         android:id="@+id/message_preview"
         android:textSize="6pt"/>
 

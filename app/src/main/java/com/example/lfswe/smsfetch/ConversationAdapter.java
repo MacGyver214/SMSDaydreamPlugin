@@ -15,7 +15,7 @@ import java.util.ArrayList;
  * Created by MacGyver on 2/27/2017.
  */
 
-public class MessageAdapter extends ArrayAdapter<Message> {
+public class ConversationAdapter extends ArrayAdapter<Message> {
 
     /**
      * A static class to hold a reference to the TextView objects that are called for
@@ -25,7 +25,7 @@ public class MessageAdapter extends ArrayAdapter<Message> {
         TextView message;
     }
 
-    public MessageAdapter(Context context, ArrayList<Message> messages) {
+    public ConversationAdapter(Context context, ArrayList<Message> messages) {
         super(context, R.layout.message_widget, messages);
     }
 

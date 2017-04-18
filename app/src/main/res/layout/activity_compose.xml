@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComposeActivity"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/messageBody"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/message_body_size"
+        android:layout_weight="0.98"
+        android:ems="10"
+        android:hint="Push the button below to enable \nvoice to text..."
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/recordButton"
+        android:layout_width="178dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Send!" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/recordButton"
+        android:text="Record" />
+</RelativeLayout>
